@@ -1,0 +1,15 @@
+/* bugSolution.css */
+#container {
+  background-color: lightblue;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen; /* This will now apply correctly */
+}
+
+#container .box {
+  background-color: lightcoral; /* More specific, overrides .box if needed */
+}
+/*The solution uses more specific selectors or restructures the selectors for better specificity control.  If it is necessary to override, a more specific selector should be created.*/
